@@ -1,0 +1,115 @@
+/* Set the background color of the page */
+body {
+    background-color: #f2f3f4;
+  }
+  
+  /* Set the font family and size */
+  body, input, button {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  /* Set the color of the text */
+  body, input {
+    color: #333;
+  }
+  
+  /* Set the width of the note container */
+  .note {
+    width: 300px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Set the color of the note title */
+  .note h2 {
+    color: #333;
+  }
+  
+  /* Set the color of the note content */
+  .note p {
+    color: #666;
+  }
+  
+  /* Set the color of the note footer */
+  .note .footer {
+    color: #999;
+  }
+  
+  /* Set the color of the delete button */
+  .note .delete {
+    color: #999;
+    cursor: pointer;
+    background-color: #f00;
+    border-radius: 5px;
+    padding: 2px;
+  }
+  
+  /* Set the hover color of the delete button */
+  .note .delete:hover {
+    background-color: #333;
+    color: #f00;
+  }
+    /* Set the color of the Edit button */
+    .note .Edit {
+        color: #999;
+        background-color: rgb(36, 197, 36);
+        cursor: pointer;
+        border-radius: 5px;
+        padding: 2px;
+      }
+      
+      /* Set the hover color of the Edit button */
+      .note .Edit:hover {
+        color:#038b09;
+        background-color:#333;
+      }
+  .btn-div {
+    position: relative;
+  }
+  
+  .btn-div button {
+    background-color: rgb(245, 232, 59);
+    border: none;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    position: left;
+  }
+  
+  .parent {
+    display: inline-block;
+    position: relative;
+    animation: move 2s forwards;
+    background-color: rgb(240, 240, 61);
+  }
+  
+  .child {
+    position: relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    color: black;
+  }
+  
+  @keyframes move {
+    0% {
+      left: 0;
+    }
+    100% {
+      left: 20px;
+    }
+  }
+  .hidden{
+    display: none;
+  }
+  
+  
